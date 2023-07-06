@@ -1,8 +1,9 @@
+import UsersList from "./components/UsersList";
 
 function App() {
   return (
-    <div>
-      Media Project
+    <div className="container mx-auto">
+      <UsersList />
     </div>
   );
 }
