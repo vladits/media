@@ -1,7 +1,26 @@
 {
-    "users": [
-        { "id": 1, "name": "Myra" }
-    ],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Teresa Steuber",
+      "id": 2
+    },
+    {
+      "name": "Bernice Friesen",
+      "id": 3
+    },
+    {
+      "name": "Mr. Arnold Runte DVM",
+      "id": 4
+    },
+    {
+      "name": "Mr. Dewey Marks",
+      "id": 5
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
