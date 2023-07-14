@@ -13,6 +13,17 @@
       "id": 9
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Licensed Frozen Computer",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Modern Fresh Chips",
+      "id": 2
+    }
+  ],
   "photos": []
 }
