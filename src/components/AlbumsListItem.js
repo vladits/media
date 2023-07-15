@@ -11,7 +11,7 @@ function AlbumsListItem({album}) {
         console.log(result);
     }
     const header = <>
-        <Button loading={result.isLoading} className="mr-3" onClick={handleTrashClick}>
+        <Button loading={result.isLoading} className="mr-2" onClick={handleTrashClick}>
             <GoTrash />
         </Button>
         {album.title}
