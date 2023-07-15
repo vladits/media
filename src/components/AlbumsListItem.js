@@ -2,6 +2,7 @@ import { GoTrash } from "react-icons/go";
 import Button from "./Button";
 import ExpandablePanel from "./ExpadablePanel";
 import { useRemoveAlbumMutation } from "../store/apis/albumsApi";
+import PhotosList from "./PhotosList";
 
 function AlbumsListItem({album}) {
     const [removeAlbum, result] = useRemoveAlbumMutation();
@@ -18,7 +19,7 @@ function AlbumsListItem({album}) {
     </>;
 
     return <ExpandablePanel header={header}>
-        List of photos in the album
+        <PhotosList album={album} />
     </ExpandablePanel>; 
 }
 
