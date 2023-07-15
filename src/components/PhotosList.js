@@ -13,7 +13,7 @@ function PhotosList({album}) {
 
     let content;
     if (isFetching) {
-        content = <Skeleton className="h-8 w-8" times={4} />;
+        content = <Skeleton className="h-20 w-20" times={4} />;
     } else if (error) {
         content = <div>Error fetching photos...</div>;
     } else {
@@ -30,7 +30,7 @@ function PhotosList({album}) {
                 + Add Photo
             </Button>
         </div>
-        <div className="mx-8 flex flex-row flex=wrap justify-center">
+        <div className="mx-8 flex flex-row flex-wrap justify-center">
             {content}
         </div>
     </div>;
