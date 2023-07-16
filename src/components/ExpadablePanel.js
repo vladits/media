@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { GoChevronDown, GoChevronLeft } from "react-icons/go";
+import { GoTriangleDown, GoTriangleLeft } from "react-icons/go";
 
 function ExpandablePanel({header, children}) {
     const [expanded, setExpanded] = useState(false);
@@ -15,7 +15,7 @@ function ExpandablePanel({header, children}) {
                     {header}
                 </div>
                 <div onClick={handleClick} className="cursor-pointer">
-                    {expanded ? <GoChevronDown /> : <GoChevronLeft />}
+                    {expanded ? <GoTriangleDown /> : <GoTriangleLeft />}
                 </div>
             </div>
             {

@@ -2,6 +2,7 @@ import { useFetchAlbumsQuery, useAddAlbumMutation } from "../store";
 import Skeleton from './Skeleton';
 import Button from './Button';
 import AlbumListItem from "./AlbumsListItem";
+import { BsFillFileEarmarkImageFill } from "react-icons/bs";
 
 function AlbumsList({user}) {
     const { data, error, isFetching } = useFetchAlbumsQuery(user);
@@ -28,7 +29,7 @@ function AlbumsList({user}) {
                 <h3 className="text-lg font-bold">
                     Albums for {user.name}
                 </h3>
-                <Button loading={results.isLoading} onClick={handleAddAlbum}>+ Add Album</Button>
+                <Button loading={results.isLoading} onClick={handleAddAlbum}>Add Album <BsFillFileEarmarkImageFill className="m-2 text-2xl" /></Button>
             </div>
             <div>
                 {content}

@@ -6,6 +6,7 @@ import Button from "./Button";
 import Skeleton from "./Skeleton";
 import { useThunk } from "../hooks/use-thunk";
 import UsersListItem from "./UsersListItem";
+import { GoPersonAdd } from "react-icons/go";
 
 function UsersList() {
     const [doFetchUsers, isLoadingUsers, loadingUsersError] = useThunk(fetchUsers);
@@ -37,7 +38,7 @@ function UsersList() {
     return <div>
         <div className="flex flex-row justify-between items-center m-3">
             <h1 className="m-2 text-xl">Users List</h1>
-            <Button loading={isCreatingUser} onClick={handleUserAdd}>+ Add User</Button>
+            <Button loading={isCreatingUser} onClick={handleUserAdd}>Add User<GoPersonAdd className="m-2 text-2xl"/></Button>
             {creatingUserError && 'Error creating user...'}
         </div>
         {content}

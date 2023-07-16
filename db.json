@@ -1,33 +1,29 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
+      "name": "Timmy Little",
+      "id": 1
     },
     {
-      "name": "Maggie Monahan",
-      "id": 8
-    },
-    {
-      "name": "Casey Barrows",
-      "id": 9
+      "name": "Paul Streich",
+      "id": 2
     }
   ],
   "albums": [
     {
       "userId": 1,
-      "title": "Licensed Frozen Computer",
+      "title": "Generic Soft Pizza",
       "id": 1
     },
     {
-      "userId": 1,
-      "title": "Gorgeous Metal Bacon",
-      "id": 3
+      "userId": 2,
+      "title": "Modern Plastic Chair",
+      "id": 2
     },
     {
-      "userId": 9,
-      "title": "Oriental Concrete Pants",
-      "id": 4
+      "userId": 2,
+      "title": "Modern Plastic Pants",
+      "id": 3
     }
   ],
   "photos": [
@@ -95,41 +91,6 @@
       "albumId": 1,
       "url": "https://loremflickr.com/640/480?lock=7913417941712896",
       "id": 16
-    },
-    {
-      "albumId": 4,
-      "url": "https://loremflickr.com/640/480?lock=730993113694208",
-      "id": 17
-    },
-    {
-      "albumId": 4,
-      "url": "https://loremflickr.com/640/480?lock=1791000259330048",
-      "id": 18
-    },
-    {
-      "albumId": 4,
-      "url": "https://loremflickr.com/640/480?lock=3183843192340480",
-      "id": 19
-    },
-    {
-      "albumId": 4,
-      "url": "https://loremflickr.com/640/480?lock=1321129518039040",
-      "id": 20
-    },
-    {
-      "albumId": 4,
-      "url": "https://loremflickr.com/640/480?lock=5736989412294656",
-      "id": 21
-    },
-    {
-      "albumId": 4,
-      "url": "https://loremflickr.com/640/480?lock=8616578593587200",
-      "id": 22
-    },
-    {
-      "albumId": 4,
-      "url": "https://loremflickr.com/640/480?lock=6058941381345280",
-      "id": 24
     }
   ]
 }
